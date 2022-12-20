@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  {{> head}}
+</head>
+
+<body>
+  {{> header}}
+  {{> aside}}
+      <main id="main" class="main">
+
+    <div class="pagetitle">
+      <h1>Noticias y actualizaciones:</h1>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index">Home</a></li>
+          <li class="breadcrumb-item active">Tablero</li>
+        </ol>
+      </nav>
+    </div>
+
+    <section class="section dashboard">
+      <div class="row">
+
+        <!-- columns -->
+        <div class="col-lg-12">
+          <div class="row">
+        <!-- Columnas, lado derecho. -->
+        <div class="col-lg-12">
+          {{> news}} 
+          {{> activity}} 
+          {{> traffic}} 
+        </div><!-- Fin de columnas a la derecha -->
+
+      </div>
+    </section>
+
+  </main>
+    {{> footer}} 
+  {{> script}}
+</body>
+
+</html>

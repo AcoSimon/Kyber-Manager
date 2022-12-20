@@ -1,0 +1,38 @@
+      <main id="main" class="main">
+
+    <div class="pagetitle">
+      <h1>Tablero de información</h1>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index">Home</a></li>
+          <li class="breadcrumb-item active">Tablero</li>
+        </ol>
+      </nav>
+    </div>
+
+    <section class="section dashboard">
+      <div class="row">
+
+        <!-- columns -->
+        <div class="col-lg-8">
+          <div class="row">
+            {{> sales}}
+            {{> import}}
+            {{> clients}}
+            {{> report}}
+            {{> operations}}
+            {{> servicesTop}}
+          </div>
+        </div><!-- Fin columnas, lado izq. -->
+
+        <!-- Columnas, lado derecho. -->
+        <div class="col-lg-4">
+          {{> activity}}
+          {{> traffic}}
+          {{> news}}
+        </div><!-- Fin de columnas a la derecha -->
+
+      </div>
+    </section>
+
+  </main>

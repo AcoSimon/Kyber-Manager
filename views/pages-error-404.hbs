@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  {{> head}}
+</head>
+
+<body>
+
+  <main>
+    <div class="container">
+
+      <section class="section error-404 min-vh-100 d-flex flex-column align-items-center justify-content-center">
+        <img src="assets/img/not-found.gif" class="img-fluid img-404 py-5" alt="Page Not Found">
+        <h2>La pagina que buscas no existe.</h2>
+        <a class="btn" href="index">Volver al inicio</a>
+        <br>
+        {{> credits }}
+      </section>
+
+    </div>
+  </main><!-- End #main -->
+  {{> script}}
+</body>
+
+</html>

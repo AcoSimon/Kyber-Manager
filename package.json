@@ -1,0 +1,25 @@
+{
+  "name": "kyber",
+  "version": "1.0.0",
+  "description": "Client's Manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "type": "CommonJS"
+  },
+  "keywords": [],
+  "author": "Acosta, Simón Martín. DNI:38815437. info@acoslegacy.com",
+  "license": "ISC",
+  "dependencies": {
+    "assets": "^3.0.1",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "hbs": "^4.2.0",
+    "mongoose": "^6.8.0",
+    "path": "^0.12.7"
+  }
+}
